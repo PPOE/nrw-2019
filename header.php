@@ -10,5 +10,5 @@
     </head>
     <body <?php body_class(); ?>>
         <header class="header">
-            [header]
+            [header] test
         </header>
