@@ -1,6 +1,11 @@
 .give-wrap{
     .give-grid{
         grid-gap: 10px;
+        .give-grid__item{
+            .give-donor.give-card{
+                padding: 10px 20px;
+            }
+        }
     }
     .give-donor__load_more{
         border: none;
@@ -8,6 +13,7 @@
         border-bottom: 4px solid lighten($colorBrand, 40%);
         transition: $transitionNormal;
         color: $colorWhite;
+        cursor: pointer;
         &:hover{
             background-color: lighten($colorBrand, 40%);
         }
