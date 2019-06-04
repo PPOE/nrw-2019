@@ -51,11 +51,15 @@
                         </a>
                     </div>
                     <div class="col-5 d-lg-none text-right">
-                        <button class="hamburger hamburger--collapse" type="button">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
-                        </button>
+                        <div class="display-table">
+                            <div class="display-table-cell right">
+                                <button class="hamburger hamburger--collapse" type="button">
+                                    <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-9 col-md-8">
                         <div class="display-table">

@@ -8026,7 +8026,7 @@ a.text-dark:hover, a.text-dark:focus {
   top: 0;
   background-color: #4C2582;
   z-index: 49;
-  margin-top: 96px;
+  margin-top: 80px;
   transition: 0.5s cubic-bezier(0.57, 0.01, 0.18, 0.96); }
   .mobile-menu-wrapper .mobile-menu {
     padding: 60px 0 40px 0; }
