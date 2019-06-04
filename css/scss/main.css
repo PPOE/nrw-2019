@@ -8056,6 +8056,10 @@ a.text-dark:hover, a.text-dark:focus {
           .mobile-menu-wrapper .mobile-menu nav ul li a:hover {
             text-decoration: none; }
 
+@media (max-width: 992px) {
+  .content {
+    margin-top: 80px; } }
+
 .content .page-content {
   margin-top: 40px;
   margin-bottom: 40px; }
