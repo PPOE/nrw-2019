@@ -1,0 +1,25 @@
+.give-form-wrap{
+    .give-form{
+        .give-total-wrap{
+
+        }
+        .give-donation-levels-wrap{
+            display: flex;
+            li{
+                flex: 1;
+                margin: 0;
+                button{
+                    border: none;
+                    background-color: $colorBrand;
+                    border-bottom: 4px solid lighten($colorBrand, 40%);
+                    transition: $transitionNormal;
+                    color: $colorWhite;
+                    width: 100%;
+                    &:hover{
+                        background-color: lighten($colorBrand, 40%);
+                    }
+                }
+            }
+        }
+    }
+}
