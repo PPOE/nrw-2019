@@ -4,6 +4,13 @@
 .header{
     background-color: $colorBrand;
     padding: 20px 0;
+    @media(max-width: 922px){
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 50;
+    }
     .page-logo{
         height: 40px;
         width: 40px;
@@ -33,7 +40,9 @@
         }
     }
 }
-
+.hamburger{
+    outline: 0;
+}
 .mobile-menu-wrapper{
     position: fixed;
     width: 70%;

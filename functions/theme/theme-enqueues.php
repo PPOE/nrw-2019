@@ -17,6 +17,8 @@ add_action('wp_enqueue_scripts', 'ppat_styles');
  * Script enqueues
  */
 function ppat_scripts() {
-    wp_enqueue_script('main', get_template_directory_uri() . '/js/script.js', array('jquery'), false, true);
+    wp_deregister_script('jquery');
+    wp_enqueue_script('jquery', get_template_directory_uri() . '/js/jquery.js', array(), '3.4.1', true); 
+    wp_enqueue_script('main', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'ppat_scripts');

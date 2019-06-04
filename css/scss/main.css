@@ -7982,6 +7982,13 @@ a.text-dark:hover, a.text-dark:focus {
 .header {
   background-color: #4C2582;
   padding: 20px 0; }
+  @media (max-width: 922px) {
+    .header {
+      position: fixed;
+      width: 100%;
+      left: 0;
+      top: 0;
+      z-index: 50; } }
   .header .page-logo {
     height: 40px;
     width: 40px;
@@ -8004,6 +8011,9 @@ a.text-dark:hover, a.text-dark:focus {
           .header nav ul li a:hover {
             color: #b393e0;
             text-decoration: none; }
+
+.hamburger {
+  outline: 0; }
 
 .mobile-menu-wrapper {
   position: fixed;
