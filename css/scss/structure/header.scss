@@ -23,6 +23,11 @@
                     font-weight: 400;
                     color: $colorWhite;
                     font-size: 16px;
+                    transition: $transitionNormal;
+                    &:hover{
+                        color: lighten($colorBrand, 0.5);
+                        text-decoration: none;
+                    }
                 }
             }
         }
