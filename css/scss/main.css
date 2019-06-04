@@ -8005,6 +8005,10 @@ a.text-dark:hover, a.text-dark:focus {
       .header nav ul li {
         display: inline-block;
         margin: 0 10px; }
+        .header nav ul li.current_page_item a {
+          color: #b393e0; }
+        .header nav ul li.current-page-ancestor a {
+          color: #b393e0; }
         .header nav ul li a {
           font-family: "Roboto", sans-serif;
           font-weight: 400;
@@ -8083,7 +8087,8 @@ a.text-dark:hover, a.text-dark:focus {
     text-align: right; }
     @media (max-width: 992px) {
       .footer .footer-nav {
-        text-align: center; } }
+        text-align: center;
+        border-top: 1px solid #ffffff; } }
     .footer .footer-nav ul {
       margin: 0;
       padding: 0;

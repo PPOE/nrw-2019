@@ -28,6 +28,16 @@
             li{
                 display: inline-block;
                 margin: 0 10px;
+                &.current_page_item{
+                    a{
+                        color: lighten($colorBrand, 40%);
+                    }
+                }
+                &.current-page-ancestor{
+                    a{
+                        color: lighten($colorBrand, 40%);
+                    }
+                }
                 a{
                     font-family: $fontRoboto;
                     font-weight: 400;
