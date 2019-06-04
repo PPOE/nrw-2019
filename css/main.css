@@ -7400,6 +7400,9 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 900;
   font-family: "Font Awesome 5 Free"; }
 
+.give-fl-wrap {
+  width: 100%; }
+
 .give-wrap .give-grid {
   grid-gap: 10px; }
   .give-wrap .give-grid .give-grid__item .give-donor.give-card {
