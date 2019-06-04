@@ -7266,18 +7266,18 @@ a.text-dark:hover, a.text-dark:focus {
 /*
  *  Header stylings
  */
-.head {
+.header {
   background-color: #4C2582;
   padding: 20px 0; }
-  .head nav {
+  .header nav {
     text-align: right; }
-    .head nav ul {
+    .header nav ul {
       margin: 0;
       padding: 0;
       list-style: none; }
-      .head nav ul li {
+      .header nav ul li {
         display: inline-block; }
-        .head nav ul li a {
+        .header nav ul li a {
           font-family: "Roboto", sans-serif;
           font-weight: 400;
           color: #ffffff; }
