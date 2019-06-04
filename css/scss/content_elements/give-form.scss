@@ -120,5 +120,7 @@
     width: 100%;
 }
 .give-fl-has-focus{
-    color: $colorBrand;
+    label{
+        color: $colorBrand;
+    }
 }

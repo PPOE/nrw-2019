@@ -7403,7 +7403,7 @@ a.text-dark:hover, a.text-dark:focus {
 .give-fl-wrap {
   width: 100%; }
 
-.give-fl-has-focus {
+.give-fl-has-focus label {
   color: #4C2582; }
 
 .give-wrap .give-grid {
