@@ -7352,6 +7352,6 @@ a.text-dark:hover, a.text-dark:focus {
       .give-form-wrap .give-form .give-donation-levels-wrap li button:hover {
         background-color: #b393e0; }
 
-.give-form-wrap .give-form .give-payment-mode-select .give-payment-mode-wrap ul li #give-gateway-option-paypal:before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f1ed"; }
+.give-form-wrap .give-form .give-payment-mode-select #give-gateway-option-paypal:before {
+  content: "\f1ed";
+  font-family: "Font Awesome 5 Brands"; }
