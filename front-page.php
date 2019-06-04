@@ -10,6 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
+                <i class="fab fa-paypal"></i>
                     <?php if (have_posts()): ?>
                         <?php while (have_posts()): the_post(); ?>
 

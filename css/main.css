@@ -12,6 +12,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
 *,
 *::before,
@@ -7350,3 +7351,6 @@ a.text-dark:hover, a.text-dark:focus {
       width: 100%; }
       .give-form-wrap .give-form .give-donation-levels-wrap li button:hover {
         background-color: #b393e0; }
+
+.give-form-wrap .give-form .give-payment-mode-select .give-payment-mode-wrap ul li .give-gateway-option:before {
+  content: 'f1ed'; }

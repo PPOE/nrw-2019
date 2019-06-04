@@ -37,5 +37,24 @@
                 }
             }
         }
+        .give-payment-mode-select{
+            .give-payment-mode-label{
+
+            }
+            .give-payment-mode-wrap{
+                ul{
+                    li{
+                        .give-gateway{
+
+                        }
+                        .give-gateway-option{
+                            &:before{
+                                content: 'f1ed';
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
