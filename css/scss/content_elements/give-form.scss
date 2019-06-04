@@ -48,11 +48,12 @@
 
                         }
                         .give-gateway-option{
-                            &#give-gateway-option-paypal{
-                                &:before{
-                                    font-family: "Font Awesome 5 Brands";
-                                    content: "\f1ed";
-                                }
+
+                        }
+                        #give-gateway-option-paypal{
+                            &:before{
+                                font-family: "Font Awesome 5 Brands";
+                                content: "\f1ed";
                             }
                         }
                     }
