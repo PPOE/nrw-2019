@@ -4,12 +4,14 @@
             .give-text-input{
                 width: 90%;
                 outline: 0;
+                border-color: $colorBrand;
             }
             .give-currency-symbol{
                 width: 10%;
                 text-align: center;
                 color: $colorWhite;
                 background-color: $colorBrand;
+                border-color: $colorBrand;
             }
         }
         .give-donation-levels-wrap{
@@ -19,7 +21,7 @@
             }
             li{
                 flex: 1;
-                float: none;
+                float: none !important;
                 margin: 0;
                 button{
                     border: none;
