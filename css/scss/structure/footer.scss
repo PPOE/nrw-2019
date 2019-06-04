@@ -10,15 +10,25 @@
         font-size: 16px;
         font-weight: 300;
         color: $colorWhite;
+        @media(max-width: 992px){
+            text-align: center;
+        }
     }
     .footer-nav{
         text-align: right;
+        @media(max-width: 992px){
+            text-align: center;
+        }
         ul{
             margin: 0;
             padding: 0;
             list-style: none;
             li{
                 margin: 0 10px;
+                display: inline-block;
+                @media(max-width: 992px){
+                    display: block;
+                }
                 a{
                     font-family: $fontRoboto;
                     font-size: 16px;
