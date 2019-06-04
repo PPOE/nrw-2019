@@ -133,6 +133,10 @@
         border: 1px solid $colorBrand !important;
         border-color: $colorBrand !important;
         color: lighten($colorBrand, 40%);
+        padding: 5px 20px;
+        @include placeholder {
+            color: lighten($colorBrand, 40%);
+        }
     }
     .give-submit{
         border: none;

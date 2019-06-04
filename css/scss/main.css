@@ -8209,7 +8209,16 @@ a.text-dark:hover, a.text-dark:focus {
   outline: 0;
   border: 1px solid #4C2582 !important;
   border-color: #4C2582 !important;
-  color: #b393e0; }
+  color: #b393e0;
+  padding: 5px 20px; }
+  #give-email-access-form #give-email::-webkit-input-placeholder {
+    color: #b393e0; }
+  #give-email-access-form #give-email:-moz-placeholder {
+    color: #b393e0; }
+  #give-email-access-form #give-email::-moz-placeholder {
+    color: #b393e0; }
+  #give-email-access-form #give-email:-ms-input-placeholder {
+    color: #b393e0; }
 
 #give-email-access-form .give-submit {
   border: none;
