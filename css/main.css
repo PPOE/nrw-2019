@@ -8076,6 +8076,19 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 16px;
     font-weight: 300;
     color: #ffffff; }
+  .footer .footer-nav {
+    text-align: right; }
+    .footer .footer-nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .footer .footer-nav ul li {
+        margin: 0 10px; }
+        .footer .footer-nav ul li a {
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-weight: 300;
+          color: #ffffff; }
 
 .header-image {
   height: 400px;

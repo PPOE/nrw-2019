@@ -50,7 +50,7 @@
                             <img src="<?php bloginfo('template_url'); ?>/img/PIRATENsignet.svg" alt="Piratenpartei" class="page-logo">
                         </a>
                     </div>
-                    <div class="col-5 d-lg-none text-right">
+                    <div class="col-5 col-md-8 d-lg-none text-right">
                         <div class="display-table">
                             <div class="display-table-cell right">
                                 <button class="hamburger hamburger--collapse" type="button">

@@ -5,7 +5,7 @@
                         <p class="copyright">&copy; <?php echo date("Y"); ?> - Piratenpartei</p>
                     </div>
                     <div class="col-lg-8">
-                        <nav class="footer-nav" style="display: none;">
+                        <nav class="footer-nav">
                             <ul>
                                 <?php 
                                     wp_nav_menu(array( 

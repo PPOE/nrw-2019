@@ -11,4 +11,21 @@
         font-weight: 300;
         color: $colorWhite;
     }
+    .footer-nav{
+        text-align: right;
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li{
+                margin: 0 10px;
+                a{
+                    font-family: $fontRoboto;
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: $colorWhite;
+                }
+            }
+        }
+    }
 }
