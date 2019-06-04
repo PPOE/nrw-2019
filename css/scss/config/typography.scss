@@ -8,6 +8,7 @@
         color: $colorBrand;
         transition: $transitionNormal;
         &:hover{
+            text-decoration: none;
             color: lighten($colorBrand, 40%);
         }
     }
