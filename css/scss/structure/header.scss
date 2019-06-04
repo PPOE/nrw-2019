@@ -4,6 +4,11 @@
 .header{
     background-color: $colorBrand;
     padding: 20px 0;
+    .page-logo{
+        height: 30px;
+        width: 30px;
+        display: block;
+    }
     nav{
         text-align: right;
         ul{
@@ -12,10 +17,12 @@
             list-style: none;
             li{
                 display: inline-block;
+                margin: 0 10px;
                 a{
                     font-family: $fontRoboto;
                     font-weight: 400;
                     color: $colorWhite;
+                    font-size: 16px;
                 }
             }
         }
