@@ -83,6 +83,17 @@
                     color: lighten($colorBrand, 40%);
                 }
             }
+            #give-purchase-button{
+                border: none;
+                background-color: $colorBrand;
+                border-bottom: 4px solid lighten($colorBrand, 40%);
+                transition: $transitionNormal;
+                color: $colorWhite;
+                width: 100%;
+                &:hover{
+                    background-color: lighten($colorBrand, 40%);
+                }
+            }
         }
     }
 }
