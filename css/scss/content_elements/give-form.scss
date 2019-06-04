@@ -4,14 +4,15 @@
             .give-text-input{
                 width: 90%;
                 outline: 0;
-                border-color: $colorBrand;
+                border-color: $colorBrand !important;
+                color: lighten($colorBrand, 40%);
             }
             .give-currency-symbol{
                 width: 10%;
                 text-align: center;
                 color: $colorWhite;
                 background-color: $colorBrand;
-                border-color: $colorBrand;
+                border-color: $colorBrand !important;
             }
         }
         .give-donation-levels-wrap{
