@@ -53,12 +53,12 @@
                     }
                 }
             }
-            #give-gateway-option-paypal {
-                &:before{
-                    content: "\f1ed";
-                    font-family: "Font Awesome 5 Brands";
-                }
-            }
         }
+    }
+}
+#give-gateway-option-paypal {
+    &:before{
+        content: "\f1ed";
+        font-family: "Font Awesome 5 Brands";
     }
 }
