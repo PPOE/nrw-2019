@@ -7355,3 +7355,7 @@ a.text-dark:hover, a.text-dark:focus {
 #give-gateway-option-paypal:before {
   content: "\f1ed";
   font-family: "Font Awesome 5 Brands"; }
+
+#give-gateway-option-offline:before {
+  content: "\f657";
+  font-family: "Font Awesome 5 Solid"; }
