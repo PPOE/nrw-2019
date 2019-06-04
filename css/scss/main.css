@@ -7319,11 +7319,24 @@ a.text-dark:hover, a.text-dark:focus {
   background-position: center;
   background-repeat: no-repeat; }
 
+.give-form-wrap .give-form .give-total-wrap .give-text-input {
+  width: 90%;
+  outline: 0; }
+
+.give-form-wrap .give-form .give-total-wrap .give-currency-symbol {
+  width: 10%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4C2582; }
+
 .give-form-wrap .give-form .give-donation-levels-wrap {
   display: flex; }
   .give-form-wrap .give-form .give-donation-levels-wrap li {
     flex: 1;
     margin: 0; }
+    @media (max-width: 767px) {
+      .give-form-wrap .give-form .give-donation-levels-wrap li {
+        flex: 0; } }
     .give-form-wrap .give-form .give-donation-levels-wrap li button {
       border: none;
       background-color: #4C2582;
