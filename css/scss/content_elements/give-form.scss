@@ -14,11 +14,12 @@
         }
         .give-donation-levels-wrap{
             display: flex;
+            @media(max-width: 767px){
+                display: block;
+            }
             li{
                 flex: 1;
-                @media(max-width: 767px){
-                    flex: 0;
-                }
+                float: none;
                 margin: 0;
                 button{
                     border: none;

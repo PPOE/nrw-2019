@@ -7331,12 +7331,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .give-form-wrap .give-form .give-donation-levels-wrap {
   display: flex; }
+  @media (max-width: 767px) {
+    .give-form-wrap .give-form .give-donation-levels-wrap {
+      display: block; } }
   .give-form-wrap .give-form .give-donation-levels-wrap li {
     flex: 1;
+    float: none;
     margin: 0; }
-    @media (max-width: 767px) {
-      .give-form-wrap .give-form .give-donation-levels-wrap li {
-        flex: 0; } }
     .give-form-wrap .give-form .give-donation-levels-wrap li button {
       border: none;
       background-color: #4C2582;
