@@ -127,8 +127,10 @@
 
 #give-email-access-form{
     #give-email{
-        width: 100%;
+        display: block;
+        width: 100% !important;
         outline: 0;
+        border: 1px solid $colorBrand !important;
         border-color: $colorBrand !important;
         color: lighten($colorBrand, 40%);
     }
