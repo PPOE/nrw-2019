@@ -7995,6 +7995,9 @@ a.text-dark:hover, a.text-dark:focus {
     display: block; }
   .header nav {
     text-align: right; }
+    @media (max-width: 992px) {
+      .header nav {
+        display: none; } }
     .header nav ul {
       margin: 0;
       padding: 0;
