@@ -65,6 +65,14 @@
 #give-gateway-option-offline{
     &:before{
         content: "\f53c";
+        font-weight: 900;
         font-family: "Font Awesome 5 Free";
     }
+}
+#give-gateway-option-manual{
+    &:before{
+        content: "\f0f1";
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+    } 
 }
