@@ -7209,6 +7209,11 @@ a.text-dark:hover, a.text-dark:focus {
  *  $spacingSPACINGNAME -> Spacings
  *  $transitionTRANSITIONNAME -> Transitions
  */
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px; }
+
 /*
  *  Other Stylings & Helpers
  */
@@ -7292,9 +7297,9 @@ a.text-dark:hover, a.text-dark:focus {
             color: #b393e0;
             text-decoration: none; }
 
-/*
- *  Standard stylings for the content
- */
+.content .page-content {
+  margin-top: 40px; }
+
 /*
  *  Footer stylings
  */
