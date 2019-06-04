@@ -61,15 +61,15 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/content_elements/demo.scss": {
+	"/content_elements/header-image.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/content_elements/demo.css",
+		"oA": 1,
+		"oAP": "/content_elements/header-image.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1201,6 +1201,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/main-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/main.scss": {
 		"aP": 0,
