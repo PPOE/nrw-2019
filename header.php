@@ -36,18 +36,22 @@
                         </a>
                     </div>
                     <div class="col-lg-9">
-                        <nav>
-                            <ul>
-                                <?php 
-                                    wp_nav_menu(array( 
-                                        'theme_location' => 'main-menu', 
-                                        'container'  => '',
-                                        'items_wrap' => '%3$s'
-                                        ) 
-                                    );
-                                ?>
-                            </ul>
-                        </nav>
+                        <div class="display-table">
+                            <div class="display-table-cell right">
+                                <nav>
+                                    <ul>
+                                        <?php 
+                                            wp_nav_menu(array( 
+                                                'theme_location' => 'main-menu', 
+                                                'container'  => '',
+                                                'items_wrap' => '%3$s'
+                                                ) 
+                                            );
+                                        ?>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
