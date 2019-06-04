@@ -1,0 +1,15 @@
+.give-wrap{
+    .give-grid{
+        grid-gap: 10px;
+    }
+    .give-donor__load_more{
+        border: none;
+        background-color: $colorBrand;
+        border-bottom: 4px solid lighten($colorBrand, 40%);
+        transition: $transitionNormal;
+        color: $colorWhite;
+        &:hover{
+            background-color: lighten($colorBrand, 40%);
+        }
+    }
+}

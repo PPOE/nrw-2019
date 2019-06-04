@@ -7299,7 +7299,8 @@ a.text-dark:hover, a.text-dark:focus {
             text-decoration: none; }
 
 .content .page-content {
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 /*
  *  Footer stylings
@@ -7398,3 +7399,15 @@ a.text-dark:hover, a.text-dark:focus {
   content: "\f0f1";
   font-weight: 900;
   font-family: "Font Awesome 5 Free"; }
+
+.give-wrap .give-grid {
+  grid-gap: 10px; }
+
+.give-wrap .give-donor__load_more {
+  border: none;
+  background-color: #4C2582;
+  border-bottom: 4px solid #b393e0;
+  transition: 0.2s linear;
+  color: #ffffff; }
+  .give-wrap .give-donor__load_more:hover {
+    background-color: #b393e0; }
