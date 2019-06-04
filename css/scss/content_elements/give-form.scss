@@ -54,6 +54,13 @@
                 }
             }
         }
+        .give_purchase_form_wrap{
+            .give-input{
+                outline: 0;
+                border-color: $colorBrand !important;
+                color: lighten($colorBrand, 40%);
+            }
+        }
     }
 }
 #give-gateway-option-paypal {
