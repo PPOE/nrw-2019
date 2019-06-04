@@ -7922,6 +7922,12 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 400;
   font-size: 18px; }
 
+.page-content a {
+  color: #4C2582;
+  transition: 0.2s linear; }
+  .page-content a:hover {
+    color: #b393e0; }
+
 /*
  *  Other Stylings & Helpers
  */

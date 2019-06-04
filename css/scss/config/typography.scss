@@ -3,3 +3,12 @@
     font-weight: 400;
     font-size: 18px;
 }
+.page-content{
+    a{
+        color: $colorBrand;
+        transition: $transitionNormal;
+        &:hover{
+            color: lighten($colorBrand, 40%);
+        }
+    }
+}
