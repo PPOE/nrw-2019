@@ -61,6 +61,21 @@
                 color: lighten($colorBrand, 40%);
             }
         }
+        .give-donation-submit{
+            #give-final-total-wrap{
+                .give-donation-total-label{
+                    width: 60%;
+                    color: $colorWhite;
+                    background-color: $colorBrand;
+                    border-color: $colorBrand !important;
+                }
+                .give-final-total-amount{
+                    width: 40%;
+                    border-color: $colorBrand !important;
+                    color: lighten($colorBrand, 40%);
+                }
+            }
+        }
     }
 }
 #give-gateway-option-paypal {
