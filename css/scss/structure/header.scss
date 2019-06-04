@@ -33,3 +33,53 @@
         }
     }
 }
+
+.mobile-menu-wrapper{
+    position: fixed;
+    width: 70%;
+    height: 100vh;
+    right: -70%;
+    top: 0;
+    background-color: $colorBrand;
+    z-index: 49;
+    margin-top: 96px;
+    transition: 0.5s cubic-bezier(0.57, 0.01, 0.18, 0.96);
+    .mobile-menu{
+        padding: 60px 0 40px 0;
+        nav{
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li{
+                    border-top: 1px solid $colorWhite;
+                    &:last-child{
+                        border-bottom: 1px solid $colorWhite;
+                    }
+                    &.current_page_item{
+                        background-color: lighten($colorBrand, 40%);
+                    }
+                    &.current-page-ancestor{
+                        background-color: lighten($colorBrand, 40%);
+                    }
+                    &:hover{
+                        background-color: lighten($colorBrand, 40%);
+                    }
+                    a{
+                        color: $colorWhite;
+                        font-family: $fontRoboto;
+                        font-weight: 400;
+                        font-size: 18px;
+                        letter-spacing: 0.05em;
+                        text-align: left;
+                        padding: 10px 20px;
+                        display: block;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

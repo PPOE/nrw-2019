@@ -26,18 +26,41 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
+        <div class="mobile-menu-wrapper" id="mobile-menu-container">
+            <div class="mobile-menu">
+                <nav>
+                    <ul>
+                        <?php 
+                            wp_nav_menu(array( 
+                                'theme_location' => 'main-menu', 
+                                'container'  => '',
+                                'items_wrap' => '%3$s'
+                                ) 
+                            );
+                        ?>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         <header class="header">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-4 col-7">
                         <a href="<?php echo get_option("siteurl"); ?>">
                             <img src="<?php bloginfo('template_url'); ?>/img/PIRATENsignet.svg" alt="Piratenpartei" class="page-logo">
                         </a>
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-5 d-lg-none text-right">
+                        <button class="hamburger hamburger--collapse" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="col-lg-9 col-md-8">
                         <div class="display-table">
                             <div class="display-table-cell right">
-                                <nav>
+                                <nav class="main-navigation">
                                     <ul>
                                         <?php 
                                             wp_nav_menu(array( 
