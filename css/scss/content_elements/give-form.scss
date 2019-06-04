@@ -74,8 +74,10 @@
                 }
                 .give-final-total-amount{
                     width: 70%;
+                    text-align: right;
                     @media(max-width: 767px){
                         width: 100%;
+                        border-left: 1px solid;
                     }
                     border-color: $colorBrand !important;
                     color: lighten($colorBrand, 40%);
