@@ -7298,3 +7298,11 @@ a.text-dark:hover, a.text-dark:focus {
 /*
  *  Footer stylings
  */
+.footer {
+  background-color: #000000;
+  padding: 20px 0; }
+  .footer .copyright {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400; }

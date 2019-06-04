@@ -2,5 +2,12 @@
  *  Footer stylings
  */ 
 .footer{
-    
+    background-color: $colorBlack;
+    padding: 20px 0;
+    .copyright{
+        margin: 0;
+        font-family: $fontRoboto;
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
