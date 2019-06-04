@@ -1,0 +1,24 @@
+/*!
+ *
+ *  nrw19
+ *  Copyright 2019 - Piratenpartei.at
+ *  Developer Julian Seidl
+ *
+*/
+
+// External
+@import "external/bootstrap/bootstrap-reboot";
+@import "external/bootstrap/bootstrap";
+@import "external/bootswatch/variables";
+@import "external/bootswatch/bootswatch";
+
+// Configuration
+@import "config/fonts";
+@import "config/variables";
+@import "config/typography";
+@import "config/other";
+
+// Structure
+@import "structure/header";
+@import "structure/structure";
+@import "structure/footer";

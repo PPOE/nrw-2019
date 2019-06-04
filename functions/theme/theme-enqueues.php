@@ -9,7 +9,7 @@
  * Style enqueues
  */
 function ppat_styles() {
-    wp_enqueue_style('main', get_template_directory_uri() . '/css/style.min.css', array(), false, 'all');
+    wp_enqueue_style('main', get_template_directory_uri() . '/css/main.css', array(), false, 'all');
 }
 add_action('wp_enqueue_scripts', 'ppat_styles');
 
