@@ -7358,15 +7358,21 @@ a.text-dark:hover, a.text-dark:focus {
   color: #b393e0; }
 
 .give-form-wrap .give-form .give-donation-submit #give-final-total-wrap .give-donation-total-label {
-  width: 60%;
+  width: 30%;
   color: #ffffff;
   background-color: #4C2582;
   border-color: #4C2582 !important; }
+  @media (max-width: 767px) {
+    .give-form-wrap .give-form .give-donation-submit #give-final-total-wrap .give-donation-total-label {
+      width: 100%; } }
 
 .give-form-wrap .give-form .give-donation-submit #give-final-total-wrap .give-final-total-amount {
-  width: 40%;
+  width: 70%;
   border-color: #4C2582 !important;
   color: #b393e0; }
+  @media (max-width: 767px) {
+    .give-form-wrap .give-form .give-donation-submit #give-final-total-wrap .give-final-total-amount {
+      width: 100%; } }
 
 #give-gateway-option-paypal:before {
   content: "\f1ed";

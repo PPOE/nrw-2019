@@ -64,13 +64,19 @@
         .give-donation-submit{
             #give-final-total-wrap{
                 .give-donation-total-label{
-                    width: 60%;
+                    width: 30%;
+                    @media(max-width: 767px){
+                        width: 100%;
+                    }
                     color: $colorWhite;
                     background-color: $colorBrand;
                     border-color: $colorBrand !important;
                 }
                 .give-final-total-amount{
-                    width: 40%;
+                    width: 70%;
+                    @media(max-width: 767px){
+                        width: 100%;
+                    }
                     border-color: $colorBrand !important;
                     color: lighten($colorBrand, 40%);
                 }
