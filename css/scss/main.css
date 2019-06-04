@@ -12,6 +12,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
 *,
 *::before,
 *::after {
@@ -7201,9 +7202,6 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 /*
- *  Font-Imports
- */
-/*
  *  SCSS Variables
  *
  *  $colorCOLORNAME -> Colors
@@ -7268,6 +7266,22 @@ a.text-dark:hover, a.text-dark:focus {
 /*
  *  Header stylings
  */
+.head {
+  background-color: #4C2582;
+  padding: 20px 0; }
+  .head nav {
+    text-align: right; }
+    .head nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .head nav ul li {
+        display: inline-block; }
+        .head nav ul li a {
+          font-family: "Roboto", sans-serif;
+          font-weight: 400;
+          color: #ffffff; }
+
 /*
  *  Standard stylings for the content
  */
