@@ -142,7 +142,8 @@
     background-color: lighten($colorBrand, 40%);
     &:before{
         content: "\f00c";
-        font-family: "Font Awesome 5 Brands";
+        font-family: "Font Awesome 5 Free";
+        padding-right: 10px;
     }
 }
 
