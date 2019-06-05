@@ -116,6 +116,18 @@
         font-family: "Font Awesome 5 Free";
     } 
 }
+.give-payment-mode-label{
+    &:before{
+        content: "\f788";
+        font-family: "Font Awesome 5 Free";
+    }
+}
+#give_checkout_user_info{
+    label:before{
+        content: "\f007";
+        font-family: "Font Awesome 5 Free";
+    }
+}
 .give-fl-wrap{
     width: 100%;
 }
