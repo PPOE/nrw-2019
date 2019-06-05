@@ -8204,7 +8204,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 #give_checkout_user_info legend:before {
   content: "\f007";
-  font-family: "Font Awesome 5 Free"; }
+  font-family: "Font Awesome 5 Free";
+  padding-right: 10px; }
 
 .give-fl-wrap {
   width: 100%; }
