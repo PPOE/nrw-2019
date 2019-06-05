@@ -20,6 +20,15 @@
             @media(max-width: 767px){
                 display: block;
             }
+            .give-default-level{
+                button{
+                    background-color: lighten($colorBrand, 40%);
+                    &:before{
+                        content: "\f00c";
+                        font-family: "Font Awesome 5 Brands";
+                    }
+                }
+            }
             li{
                 flex: 1;
                 float: none !important;
