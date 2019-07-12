@@ -8370,9 +8370,7 @@ a img.aligncenter {
         height: 70px; } }
     @media (max-width: 797px) {
       .link-boxes .link-box {
-        border-bottom: 1px solid #b393e0; }
-        .link-boxes .link-box:last-of-type {
-          border-bottom: none; } }
+        border-bottom: 1px solid #b393e0; } }
     .link-boxes .link-box:hover {
       background-color: #b393e0; }
     .link-boxes .link-box a {
