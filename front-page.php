@@ -6,7 +6,7 @@
 
     $linkBoxLinks = get_field('link_blocks', 'options');
 
-    get_the_field('link_blocks', 'options');
+    // get_the_field('link_blocks', 'options');
 ?>
 <main class="content">
     <div class="header-image" style="background-image: url('<?php echo $image ?>')"></div>
