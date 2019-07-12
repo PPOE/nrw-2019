@@ -100,6 +100,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/content_elements/link-boxes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/content_elements/link-boxes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/external/bootstrap/_alert.scss": {
 		"aP": 0,
 		"bl": 0,
