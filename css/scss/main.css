@@ -8266,8 +8266,8 @@ a.text-dark:hover, a.text-dark:focus {
   height: 100px;
   width: 100%;
   background-color: #4C2582;
-  transition: 0.2s linear .link-boxes .link-box; }
-  .link-boxes .link-box :hover {
+  transition: 0.2s linear; }
+  .link-boxes .link-box:hover {
     background-color: #b393e0; }
   .link-boxes .link-box a {
     height: 100%; }
