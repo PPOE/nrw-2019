@@ -13,8 +13,11 @@
     <div class="link-boxes">
         <div class="container">
             <div class="row">
-                <?php if( $linkBoxLinks ): ?>
-                    <?php foreach( $linkBoxLinks as $post):?>
+                <?php 
+                    $post_objects = get_field('link_blocks', 'options');
+                    if( $post_objects ): 
+                ?>
+                    <?php foreach( $post_objects as $post):?>
                         <?php setup_postdata($post); ?>
                             <div class="col-lg">
                                 <div class="link-box">
