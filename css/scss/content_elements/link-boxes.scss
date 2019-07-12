@@ -2,6 +2,15 @@
     margin-top: 20px;
     .link-box{
         height: 100px;
+        @media(max-width: 992px){
+            height: 70px;
+        }
+        @media(max-width:797px){
+            border-bottom: 1px solid lighten($colorBrand, 40%);
+            &:last-child{
+                border-bottom: none;
+            }
+        }
         width: 100%;
         background-color: $colorBrand;
         transition: 0.2s linear;

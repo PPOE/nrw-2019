@@ -8369,6 +8369,14 @@ figure.alignleft, img.alignleft, img[align="left"] {
     width: 100%;
     background-color: #4C2582;
     transition: 0.2s linear; }
+    @media (max-width: 992px) {
+      .link-boxes .link-box {
+        height: 70px; } }
+    @media (max-width: 797px) {
+      .link-boxes .link-box {
+        border-bottom: 1px solid #b393e0; }
+        .link-boxes .link-box:last-child {
+          border-bottom: none; } }
     .link-boxes .link-box:hover {
       background-color: #b393e0; }
     .link-boxes .link-box a {
