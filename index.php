@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <?php 
-    $imageSource = get_field('header-image');
+    $imageSource = get_field('header-image', 'options');
     $image = $imageSource['sizes']['header-image'];
 
 ?>
