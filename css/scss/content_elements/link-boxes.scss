@@ -1,12 +1,16 @@
 .link-boxes{
     .link-box{
-        height: 150px;
+        height: 100px;
         width: 100%;
         background-color: $colorBrand;
+        transition: 0.2s linear
+        &:hover{
+            background-color: lighten($colorBrand, 40%);
+        }
         a{
             height: 100%;
             span{
-
+                color: $colorWhite;
             }
         }
     }
