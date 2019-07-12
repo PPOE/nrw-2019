@@ -6,66 +6,30 @@
 
     $linkBoxLinks = get_field('link_blocks', 'options');
 
-    echo $linkBoxLinks;
+    get_the_field('link_blocks', 'options');
 ?>
 <main class="content">
     <div class="header-image" style="background-image: url('<?php echo $image ?>')"></div>
     <div class="link-boxes">
         <div class="container">
             <div class="row">
-            <?php 
-                if( $linkBoxLinks ): 
-            ?>
-                <?php foreach( $linkBoxLinks as $post):?>
-                    <?php setup_postdata($post); ?>
-                        <div class="col-lg">
-                            <div class="link-box">
-                                <a href="<?php the_permalink();?>">
-                                    <div class="display-table">
-                                        <div class="display-table-cell">
-                                            <span><?php the_title(); ?></span>
+                <?php if( $linkBoxLinks ): ?>
+                    <?php foreach( $linkBoxLinks as $post):?>
+                        <?php setup_postdata($post); ?>
+                            <div class="col-lg">
+                                <div class="link-box">
+                                    <a href="<?php the_permalink();?>">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <span><?php the_title(); ?></span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                <?php endforeach; ?>
-                <?php wp_reset_postdata(); ?>
-            <?php endif; ?>
-
-                <div class="col-lg">
-                    <div class="link-box">
-                        <a href="#">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <span>Transparenz</span>
+                                    </a>
                                 </div>
                             </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg">
-                    <div class="link-box">
-                        <a href="#">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <span>Spendenverlauf</span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg">
-                    <div class="link-box">
-                        <a href="#">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <span>Ich bin ein Link</span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                    <?php endforeach; ?>
+                    <?php wp_reset_postdata(); ?>
+                <?php endif; ?>
             </div>
         </div>
     </div>
