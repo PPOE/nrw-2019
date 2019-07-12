@@ -8171,10 +8171,6 @@ a img.aligncenter {
   margin-top: 40px;
   margin-bottom: 40px; }
 
-figure.alignleft, img.alignleft, img[align="left"] {
-  float: left;
-  margin: 2.7em 2em 2.7em 0; }
-
 /*
  *  Footer stylings
  */
@@ -8375,7 +8371,7 @@ figure.alignleft, img.alignleft, img[align="left"] {
     @media (max-width: 797px) {
       .link-boxes .link-box {
         border-bottom: 1px solid #b393e0; }
-        .link-boxes .link-box:last-child {
+        .link-boxes .link-box:last-of-type {
           border-bottom: none; } }
     .link-boxes .link-box:hover {
       background-color: #b393e0; }

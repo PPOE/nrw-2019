@@ -16,7 +16,7 @@
                 ?>
                     <?php foreach( $post_objects as $post):?>
                         <?php setup_postdata($post); ?>
-                            <div class="col-lg">
+                            <div class="col-lg col-md">
                                 <div class="link-box">
                                     <a href="<?php the_permalink();?>">
                                         <div class="display-table">

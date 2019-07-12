@@ -7,7 +7,7 @@
         }
         @media(max-width:797px){
             border-bottom: 1px solid lighten($colorBrand, 40%);
-            &:last-child{
+            &:last-of-type{
                 border-bottom: none;
             }
         }
