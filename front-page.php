@@ -4,7 +4,7 @@
     $imageSource = get_field('header-image');
     $image = $imageSource['sizes']['header-image'];
 
-    $linkBoxLinks = get_field('link_blocks');
+    $linkBoxLinks = get_field('link_blocks', 'options');
 
     echo $linkBoxLinks;
 ?>
