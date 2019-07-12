@@ -116,6 +116,20 @@
         font-family: "Font Awesome 5 Free";
     } 
 }
+#give-gateway-option-stripe{
+    &:before{
+        content: "\f09d";
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+    } 
+}
+#give-gateway-option-stripe_ideal{
+    &:before{
+        content: "\f53d";
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+    } 
+}
 .give-payment-mode-label{
     &:before{
         content: "\f788";
