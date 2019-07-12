@@ -13,17 +13,26 @@
     <div class="link-boxes">
         <div class="container">
             <div class="row">
-                <div class="col-lg">
-                    <div class="link-box">
-                        <a href="#">
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <span>Spenden</span>
-                                </div>
+            <?php 
+                if( $linkBoxLinks ): 
+            ?>
+                <?php foreach( $linkBoxLinks as $post):?>
+                    <?php setup_postdata($post); ?>
+                        <div class="col-lg">
+                            <div class="link-box">
+                                <a href="<?php the_permalink();?>">
+                                    <div class="display-table">
+                                        <div class="display-table-cell">
+                                            <span><?php the_title(); ?></span>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                </div>
+                        </div>
+                <?php endforeach; ?>
+                <?php wp_reset_postdata(); ?>
+            <?php endif; ?>
+
                 <div class="col-lg">
                     <div class="link-box">
                         <a href="#">
