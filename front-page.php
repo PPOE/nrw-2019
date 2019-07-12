@@ -3,6 +3,10 @@
 <?php 
     $imageSource = get_field('header-image');
     $image = $imageSource['sizes']['header-image'];
+
+    $linkBoxLinks = get_field('link_blocks');
+
+    echo $linkBoxLinks;
 ?>
 <main class="content">
     <div class="header-image" style="background-image: url('<?php echo $image ?>')"></div>

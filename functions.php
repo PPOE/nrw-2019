@@ -19,3 +19,10 @@ require_once 'functions/theme/theme-helpers.php';
 require_once 'functions/theme/theme-woocommerce-support.php';
 
 require_once ABSPATH . 'wp-admin/includes/plugin.php';
+
+/**
+ * ACF - Option Pages
+ */
+if( function_exists('acf_add_options_page') ) {
+	acf_add_options_page();
+}
