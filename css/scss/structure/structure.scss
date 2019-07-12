@@ -7,3 +7,8 @@
         margin-bottom: 40px;
     }
 }
+
+figure.alignleft, img.alignleft, img[align="left"] {
+    float: left;
+    margin: 2.7em 2em 2.7em 0;
+}
