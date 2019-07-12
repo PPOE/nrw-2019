@@ -1,4 +1,5 @@
 .link-boxes{
+    margin-top: 20px;
     .link-box{
         height: 100px;
         width: 100%;
@@ -9,6 +10,7 @@
         }
         a{
             height: 100%;
+            text-decoration: none !important;
             span{
                 color: $colorWhite;
             }
